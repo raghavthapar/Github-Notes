@@ -96,3 +96,8 @@ Reason - Git can get confused and hence things can go wrong. If you do it by mis
 
 - Not necessarily a command but an important part of committing.
   > Messages summarize or describe the changes that we have done in that commit
+
+## git log
+
+- git log is a command that shows the timeline of what changes have been committed and what messages have been included with those commits.
+- Shows the whole history of the repository.
