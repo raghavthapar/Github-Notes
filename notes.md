@@ -90,6 +90,8 @@ Reason - Git can get confused and hence things can go wrong. If you do it by mis
 
 - git add does not mean commiting the changes. This is just grouping the changes together so that they can be committed together.
 
+- _git add . is used to stage all the changes at once._
+
 ## Git Messages
 
 - Not necessarily a command but an important part of committing.
