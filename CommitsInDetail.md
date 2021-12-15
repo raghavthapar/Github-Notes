@@ -1,4 +1,4 @@
-# COMMITS IN DETAIL
+                                       ================== > COMMITING IN DETAIL < ==================
 
 ## Atomic Commits
 
@@ -22,3 +22,8 @@ It makes easier to see what changes you have done so far and then if needed, the
 - Makes it easy to see the history much more clearer
 
 <!-- Just making some changes to reflect in the GUI part of the git -->
+
+## Ammending Immediate Commits
+
+- Ammending can be required if we miss something in a commit or the message is missing.
+- We can redo the previous commit using the `--amend`
