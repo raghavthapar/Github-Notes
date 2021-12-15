@@ -27,3 +27,4 @@ It makes easier to see what changes you have done so far and then if needed, the
 
 - Ammending can be required if we miss something in a commit or the message is missing.
 - We can redo the previous commit using the `--amend`
+- We can only amend the previous commit
