@@ -28,3 +28,10 @@ It makes easier to see what changes you have done so far and then if needed, the
 - Ammending can be required if we miss something in a commit or the message is missing.
 - We can redo the previous commit using the `--amend`
 - We can only amend the previous commit
+
+## Ignoring files using Git
+
+- We do not want to add any kind of files tkhat are sensitive or that will just increase the load of the repository or has no use being in the repository.
+- The files can be - _Secrets, API Keys, credentials, OS files, log files, dependencies and packages(for eg. Node and all)_
+
+- We make a `.gitignore` directory all by ourselves and we type in the names of the files/folders that we don't want to track at all. We can keep adding files in that file itself and track that in git.
