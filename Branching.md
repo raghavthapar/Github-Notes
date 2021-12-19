@@ -15,3 +15,9 @@
 - Master branch is something that many of us use that can be the main branch where nothing should go wrong etc.
 - Github renamed the master branch to 'main'
 - We can also change the name of the branches according to our own choice, even the master/main one.
+
+## What is Head->master in git log?
+
+- HEAD is simply a pointer that refers to the current location in our repo
+- HEAD in simple words is the current branch/location that we are checking out/viewing/working on
+- HEAD is a pointer and a reference to the branch pointer. (The branch pointer is where a branch currently is)
