@@ -7,3 +7,11 @@
 - If we make changes on one branch, then it doesn't affect any other branch.
 - We can merge branches as well which will result in both the branches being put together.
 - Branches exists in isolation
+
+## What is a master branch?
+
+- We are always on a branch and the default is the master branch
+- Master branch is just like any other branch
+- Master branch is something that many of us use that can be the main branch where nothing should go wrong etc.
+- Github renamed the master branch to 'main'
+- We can also change the name of the branches according to our own choice, even the master/main one.
