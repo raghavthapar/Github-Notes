@@ -1,4 +1,4 @@
-<================================== BRANCHING ==================================>
+# BRANCHING
 
 ## What is branching?
 
@@ -21,3 +21,33 @@
 - HEAD is simply a pointer that refers to the current location in our repo
 - HEAD in simple words is the current branch/location that we are checking out/viewing/working on
 - HEAD is a pointer and a reference to the branch pointer. (The branch pointer is where a branch currently is)
+
+## Working with branches
+
+1. `git branch` -> this command is used to view the current branches in our repository
+
+   - The branch that will be active will have an `*(asterisk)` in front of it
+
+2. `git branch <branch-name>` -> This command makes a branch
+
+   - The HEAD doesn't change due to this. The HEAD remains on the branch that we currently were in.
+
+   - When we make a new branch, that is a reference pointer, it points to the same commit as the current HEAD is on. For e.g. Let's say we have the master branch and have 2 commits on it. The master branch (the master reference pointer) points to the recent commit, and the new branch reference pointer also points to the recent commit (See Image)
+     ![Example](2021-12-19-19-49-35.png)
+
+3. `git switch <branch-name>` -> This command is used to switch between existing branching
+   - This is a new command that is used in Git.
+   - When commiting in a branch, the file may or may not show the commits that you have made in mother branches.
+   - Also, the file's content changes based on what branch we are in.
+
+> It does matter where we switch from. As the contents may vary from branch to branch and what branch the new branch has been made.
+
+4. `git checkout <branch-name>` -> This command is used for switching branches.
+   - The command does a lot of stuff and hence switch is used over checkout.
+
+\*We can create and switch to a branch at the same time. This is done using the `git switch` command with the `-c` flag (-c stands from create).
+
+Q. What if we try to switch a branch while there are changes that are not committed to it?
+
+A.- In this case, if we try to switch a branch, then git proceeds to show an `error` that the changes that have been done in the branch will be overwritten. Hence, it advices to either commit the changes or stash(More on this later) them.
+However, if there are any `untracked files/folders`, that would not cause any kind of conflict in git, then the switch will happen easily.
