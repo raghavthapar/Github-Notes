@@ -61,3 +61,9 @@ However, if there are any `untracked files/folders`, that would not cause any ki
 6. `git branch -m <newBranchName>` -> This command is used to rename a branch.
 
    - The only catch is that we have to be on the branch that we have to delete.
+
+**-- HOW GIT STORES HEAD AND BRANCHES --**
+
+- HEAD is just a commit that is used to reference the current branch. Inside the .git folder, the HEAD always refers to the current branch folder
+
+- As for branches, they refer to the most recent commit that is made on that branch. If the recent commit is starting from 9ffd, then the branch file will only contain the recent hash, that is 9ffd.
