@@ -51,3 +51,9 @@ Q. What if we try to switch a branch while there are changes that are not commit
 
 A.- In this case, if we try to switch a branch, then git proceeds to show an `error` that the changes that have been done in the branch will be overwritten. Hence, it advices to either commit the changes or stash(More on this later) them.
 However, if there are any `untracked files/folders`, that would not cause any kind of conflict in git, then the switch will happen easily.
+
+5. `git branch -d <branchName>` -> This command is used to delete a branch.
+
+   - We cannot delete the branch that we are currently are
+   - If we switch and then try to delete the branch, then error pops up - **`The branch <branchName> is not fully merged`**
+   - Hence, it is advised that we use the `-D` option which is equal to **--delete --force**
