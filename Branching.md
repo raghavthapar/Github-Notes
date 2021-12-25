@@ -57,3 +57,7 @@ However, if there are any `untracked files/folders`, that would not cause any ki
    - We cannot delete the branch that we are currently are
    - If we switch and then try to delete the branch, then error pops up - **`The branch <branchName> is not fully merged`**
    - Hence, it is advised that we use the `-D` option which is equal to **--delete --force**
+
+6. `git branch -m <newBranchName>` -> This command is used to rename a branch.
+
+   - The only catch is that we have to be on the branch that we have to delete.
