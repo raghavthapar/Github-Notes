@@ -43,4 +43,5 @@
      `>>>>>>>BranchName(The incoming changes)`
   4. Add changes and make the commit
 
+- ![Conflict markers](2022-01-02-20-02-57.png)
 - We can also use VS Code to make the changes with the options provided on the top of the conflict file
