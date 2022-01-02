@@ -16,3 +16,13 @@
   b. Use the git merge command to merge the changes into the current branch.
 
 - If a branch has 3 commits and some other branch has 2 commits, then after merge the branch will have 5 commits.
+
+# Merge Commits
+
+- Not all merges are fast-forward merges.
+- This kind of merge happens when there is a some kind of untracked progress on the branch we are trying to merge into.
+- E.g. 2 branches: master and bugfix. We want to merge the bugfix branch with master branch but post making of the bugfix branch, there is some kind of work that has been done on the master branch. This kind of merge is not fast forward.
+
+- If there is no conflict, then a new commit is done, also known as the **`merge commit`**
+- Git might or might not perform a prompt that allows you to write a message (regarding message)
+- Visualization - ![Visualization](2022-01-02-11-35-12.png)
