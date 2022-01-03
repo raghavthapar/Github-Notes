@@ -18,3 +18,7 @@
 5. Lines that begin with `'-'` are from file 'a' and those with `'+'` are from file 'b'. ![Output](2022-01-03-09-02-31.png)
 
 6. The chunk header means that from file 'a' from line 3, 4 lines are extracted and from file 'b' from line 3, 5 lines are extracted. ![Output](2022-01-03-09-05-48.png)
+
+## git diff with options
+
+1. `git diff HEAD` - This command shows all the staged and unstaged changes since our last commit.
