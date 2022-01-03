@@ -23,8 +23,10 @@
 
 1. `git diff HEAD` - This command shows all the staged and unstaged changes since our last commit.
 
-2. git diff --staged/--cached - Shows the changes between last commit and the staged commit. Kind of like, tell me if I run commit now, what changes will be added to the repo.
+2. `git diff --staged/--cached` - Shows the changes between last commit and the staged commit. Kind of like, tell me if I run commit now, what changes will be added to the repo.
 
-3. git diff [filename] - This is used to see changes in a specific file. Varitations are allowed in this like using the options etc.
+3. `git diff [filename]` - This is used to see changes in a specific file. Varitations are allowed in this like using the options etc.
 
-4. git diff branch1..branch2/branch1 branch2 - This command is used to see difference between 2 branches. The order of the branches matter as the changes that have been done from both the branches can be viewed in different ways.
+4. `git diff branch1..branch2/branch1 branch2` - This command is used to see difference between 2 branches. The order of the branches matter as the changes that have been done from both the branches can be viewed in different ways.
+
+5. `git diff commit1..commit2` - Used to see changes between 2 commits.
