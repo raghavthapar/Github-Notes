@@ -30,3 +30,8 @@
 - This works like a queue and has First In First Out technique.
 - We can see all the stashes using `git stash list`.
 - We can apply specific changes using the stashing ID via `git stash apply stash@{2}` (example)
+
+## Dropping Stashes
+
+- We can delete a particular stash using `git stash drop <stash-id>
+- This can be helpful when we are using the 'git stash apply'
