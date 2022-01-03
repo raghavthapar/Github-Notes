@@ -18,3 +18,8 @@
 2. `git stash pop`
 
    - Removes the most recently stashed changes in the stash and reapply them to the working copy.
+   - The stash becomes free of the most recent change and it can't be retrieved after that.
+
+3. `git stash apply`
+
+   - This is used to apply the changes to a branch but the stash does not get rid of the most recent stash.
