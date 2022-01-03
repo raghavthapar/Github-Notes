@@ -24,3 +24,7 @@
 1. `git diff HEAD` - This command shows all the staged and unstaged changes since our last commit.
 
 2. git diff --staged/--cached - Shows the changes between last commit and the staged commit. Kind of like, tell me if I run commit now, what changes will be added to the repo.
+
+3. git diff [filename] - This is used to see changes in a specific file. Varitations are allowed in this like using the options etc.
+
+4.
