@@ -23,3 +23,10 @@
 3. `git stash apply`
 
    - This is used to apply the changes to a branch but the stash does not get rid of the most recent stash.
+
+## Multiple Stashing
+
+- Multiple stashes can be done and they can be popped out in the order we saved them into.
+- This works like a queue and has First In First Out technique.
+- We can see all the stashes using `git stash list`.
+- We can apply specific changes using the stashing ID via `git stash apply stash@{2}` (example)
