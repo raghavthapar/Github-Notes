@@ -5,3 +5,16 @@
 - There are times when we need to switch to a branch but the work on the current branch is premature/not ready to be commited. There are 2 things that could happen -
   1. If they are non-conflicting changes/work, then the progress will come over to the branch we want to switch to.
   2. If there is some conflicting work, then Git won't let us change our branch. It would want us to either commit the changes or _stash_ our changes.
+
+## Commands
+
+1. `git stash`
+
+   - Helps to save the changes that we don't want to commit and we can come back to them later.
+   - Running it will take all the uncommitted changes (staged/unstaged) and stash them, reverting the chnages in the working copy.
+   - Same as git stash save
+   - After stashing, the work that has not been committed will disappear.
+
+2. `git stash pop`
+
+   - Removes the most recently stashed changes in the stash and reapply them to the working copy.
