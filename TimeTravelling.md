@@ -40,7 +40,15 @@ Detached Head means that HEAD is no longer referencing a branch pointer, **it is
 ## `GIT RESET`
 
 - Resets a repo back to a particular commit. Used to undo commits.
-- `git reset <commit-hash>`
+
+### `git reset <commit-hash>`
+
 - The above reset is called a regular reset and although it reverts the commit, it does keep changes in the file/working directory.
 - The no. of commits reduced till the commit we provided.
 - This is used if we want to keep our work but we want to change the branch etc. type of reason
+
+### `git reset --hard <commit-hash>`
+
+- This is known as the hard commit.
+- In this, we undo the commits and the changes that were present in the regular reset will also be deleted alongside the commit.
+- This should be done really carefully as the changes are lost and cannot be recovered.
