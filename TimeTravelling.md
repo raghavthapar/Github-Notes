@@ -1,6 +1,6 @@
 # Undoing Changes and Git Travelling
 
-## GIT CHECKOUT COMMANDS
+## `GIT CHECKOUT COMMANDS`
 
 Git checkout has many uses -
 
@@ -28,3 +28,9 @@ Detached Head means that HEAD is no longer referencing a branch pointer, **it is
 ![Example](2022-01-05-12-33-41.png)
 
 - If we do `git switch -`, then we will come back to where we left off i.e. the orignal position of the HEAD
+
+## `GIT RESTORE`
+
+- git restore is a command that replaces git checkout.
+- **`git restore <filename>`** will restore the content to the most recent commit.
+- **`git restore --source commitHash/HEAD~n`** will take the file back to a particular commit that we want. And to revert back to the orignal method, we can just use the first command.
