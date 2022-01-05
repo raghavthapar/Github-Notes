@@ -13,6 +13,11 @@ Detached Head means that HEAD is no longer referencing a branch pointer, **it is
 
 - If we are in the detached HEAD mode then we can no longer make changes on the file. If we want to make some changes, then we can make a new branch and then do the required work.
 
+### `git checkout HEAD <filename>/ -- <filename>`
+
+- This command is used to revert the changes that we have done to the file back on where it was on it's previous HEAD.
+- We revert back to the file that was there initially when we had all our work committed.
+
 ## REFERENCING COMMITS RELATIVE TO HEAD
 
 - This is done using the `'~'(tilde)` sign.
