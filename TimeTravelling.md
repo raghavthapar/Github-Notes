@@ -12,3 +12,14 @@ Git checkout has many uses -
 Detached Head means that HEAD is no longer referencing a branch pointer, **it is referencing a commit**. And to get HEAD back to pointing to a branch, we can just simply switch to any branch.
 
 - If we are in the detached HEAD mode then we can no longer make changes on the file. If we want to make some changes, then we can make a new branch and then do the required work.
+
+## REFERENCING COMMITS RELATIVE TO HEAD
+
+- This is done using the `'~'(tilde)` sign.
+- We can reference a commit by using where the head currently is.
+- For eg. We have 4 commits on master and HEAD is pointing to the most recent commit. Then the commit before that would be HEAD~1, before that
+- For eg. We have 4 commits on master and HEAD is pointing to the most recent commit. Then the commit before that would be HEAD~1, before that HEAD~2 and before that, HEAD~3 and so on...
+
+![Example](2022-01-05-12-33-41.png)
+
+- If we do `git switch -`, then we will come back to where we left off i.e. the orignal position of the HEAD
