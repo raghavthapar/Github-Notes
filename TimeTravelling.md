@@ -36,3 +36,11 @@ Detached Head means that HEAD is no longer referencing a branch pointer, **it is
 - **`git restore --source commitHash/HEAD~n`** will take the file back to a particular commit that we want. And to revert back to the orignal method, we can just use the first command.
 
 - **`git restore --staged <filename>`** - this command unstages a file that is staged to be committed.
+
+## `GIT RESET`
+
+- Resets a repo back to a particular commit. Used to undo commits.
+- `git reset <commit-hash>`
+- The above reset is called a regular reset and although it reverts the commit, it does keep changes in the file/working directory.
+- The no. of commits reduced till the commit we provided.
+- This is used if we want to keep our work but we want to change the branch etc. type of reason
