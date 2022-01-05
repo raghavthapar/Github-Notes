@@ -52,3 +52,14 @@ Detached Head means that HEAD is no longer referencing a branch pointer, **it is
 - This is known as the hard commit.
 - In this, we undo the commits and the changes that were present in the regular reset will also be deleted alongside the commit.
 - This should be done really carefully as the changes are lost and cannot be recovered.
+
+## `GIT REVERT`
+
+- Similar to git reset but approach is different.
+
+### `git revert <commit-hash>`
+
+- Git revert creates a new commit which reverses the changes that were done in the commit that we are trying to revert.
+- In Layman, git revert still keeps the changes we want to revert in the history of the repo but makes a new commit where those changes don't exist at all.
+
+- git revert can cause some conflicts as well, especially when reverting from a long time ago.
