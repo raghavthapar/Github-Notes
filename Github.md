@@ -13,3 +13,18 @@
 - Gives exposure and showcases your work that you have been doing.
 - Looks really good on your resume
 - Helps to stay up to date, technology wise.
+
+## Cloning
+
+- Using this, we can get a copy of any public repo on the local machine.
+- This is when the repository is already existing on Github.
+- Cloning initializes a new repo automatically on our machine.
+- Cloning a repo gives us the access to the whole history of the repo.
+- Make sure that you are not inside a repo when you clone a repo.
+
+Command -
+
+### `git clone <git-repo-url>`
+
+- Anyone can clone any repo on Github (Private ones do not show up at all).
+- git clone is not bound to Github and we can clone any repo that is hosted anywhere.
