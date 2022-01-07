@@ -28,3 +28,17 @@ Command -
 
 - Anyone can clone any repo on Github (Private ones do not show up at all).
 - git clone is not bound to Github and we can clone any repo that is hosted anywhere.
+
+## Creating Repos on Github
+
+- If an existing repo exists then ->
+
+  1. Create a new repo on Github
+  2. Connect your local repo (add a remote)
+  3. Push your changes to Github
+
+- If no repo exists ->
+
+  1. Create a brand new repo on Github
+  2. Clone the repo to our machine
+  3. Do work locally and push changes to Github
