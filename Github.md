@@ -65,6 +65,17 @@ Command -
 - When we push the very first time, the push command actually makes the master branch on the Github repo which at the first place **_doesn't have any branch at all_**.
 
 - Not necessary that we push a local branch to the same remote branch, we can push it to any other local branch too.
-- Command -
 
-  1. ### `git push remote <local-branch>:<remote branch>`
+Command -
+
+### `git push remote <local-branch>:<remote branch>`
+
+- Git push can be automated too. It can be done using the -u option on the git push command once.
+
+Command -
+
+### `git push -u <branch-name>/ <local-branch> : <repo-branch>`
+
+1. `-u` stands for 'Upstream'
+2. This tells git that whenever we say _git push_ then it knows that what branch to push on and to to which remote
+3. Not only this, but if we want to send our local branch data to some other branch and not the same branch, upstreaming comes in handy
