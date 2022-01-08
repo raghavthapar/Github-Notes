@@ -79,3 +79,5 @@ Command -
 1. `-u` stands for 'Upstream'
 2. This tells git that whenever we say _git push_ then it knows that what branch to push on and to to which remote
 3. Not only this, but if we want to send our local branch data to some other branch and not the same branch, upstreaming comes in handy
+
+**Note**: When cloning an existing repo, the remote is already configured
