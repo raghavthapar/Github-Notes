@@ -42,3 +42,23 @@ Command -
   1. Create a brand new repo on Github
   2. Clone the repo to our machine
   3. Do work locally and push changes to Github
+
+## Git Remotes
+
+- Before we can push, we need to tell Git about the remote repo on Github i.e. we need to setup a destination to push up to.
+- This destination is referred to as remote.
+- This remote is simply a URL where a repo is hosted.
+
+Commands -
+
+### `git remote`
+
+### `git remote -v` (verbose for more info)
+
+### `git remote add <name> <url>` (To add a new remote)
+
+### `git remote rename <old> <new>` (For renaming the remote)
+
+### `git remote rename <name>` (To remove a remote)
+
+- `Origin` is the most common name for a remote but not the only one. The name can be kept to anything else.
