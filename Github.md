@@ -49,16 +49,22 @@ Command -
 - This destination is referred to as remote.
 - This remote is simply a URL where a repo is hosted.
 
-Commands -
+- Commands -
 
-### `git remote`
-
-### `git remote -v` (verbose for more info)
-
-### `git remote add <name> <url>` (To add a new remote)
-
-### `git remote rename <old> <new>` (For renaming the remote)
-
-### `git remote rename <name>` (To remove a remote)
+  1. ### `git remote`
+  2. ### `git remote -v` (verbose for more info)
+  3. ### `git remote add <name> <url>` (To add a new remote)
+  4. ### `git remote rename <old> <new>` (For renaming the remote)
+  5. ### `git remote remove <name>` (To remove a remote)
 
 - `Origin` is the most common name for a remote but not the only one. The name can be kept to anything else.
+
+## Git Push
+
+- `git push <remote> <branch>` command is used to push the changes up to Github.
+- When we push the very first time, the push command actually makes the master branch on the Github repo which at the first place **_doesn't have any branch at all_**.
+
+- Not necessary that we push a local branch to the same remote branch, we can push it to any other local branch too.
+- Command -
+
+  1. ### `git push remote <local-branch>:<remote branch>`
