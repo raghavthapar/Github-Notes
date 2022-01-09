@@ -96,3 +96,15 @@ Commands -
 ### `git branch -r` (To see all the local and remote branches)
 
 ### `git checkout <remote>/<branch>` (To go back to the most recent commit of remote)
+
+## Remote Branches
+
+- Remote branches are something that when we clone the remote repo, they don't show up as our normal branches. Only the main branch shows up if we run the command git branch.
+- Now, the main branch is the one that points to all the remote branches beacause we have not told git that we want branches for other remote branches as well.
+- To make a branch that will point to the same remote branch we use -
+
+### `git switch <remote-branch-name>`
+
+### `git checkout <remote-name>/<remote-branch-name>`
+
+- Through these commands, we tell Git that we want a branch that can point to the remote branch of the same name.
