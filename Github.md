@@ -81,3 +81,18 @@ Command -
 3. Not only this, but if we want to send our local branch data to some other branch and not the same branch, upstreaming comes in handy
 
 **Note**: When cloning an existing repo, the remote is already configured
+
+## Remote Tracking Branch
+
+- When we clone a branch, from Github or somewhere else, we get 2 pointers - the master and the origin/master.
+- `master` - is a local branch reference and can be moved around by us.
+- `origin/master` - this is known as a **Remote tracking branch**. It is a reference to the state of the master branch on the remote(aka hosted repo).
+- In layman terms, it is just a bookmark pointing to the last known commit on the master branch on origin. We can't move it by ourselves.
+- They follow the pattern `<remote>/<branch>`
+- If we are ahead in our local repo and we want to see what the repo looked like on <remote>/<branch> then we can just simply checkout to it.
+
+Commands -
+
+### `git branch -r` (To see all the local and remote branches)
+
+### `git checkout <remote>/<branch>` (To go back to the most recent commit of remote)
