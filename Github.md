@@ -108,3 +108,16 @@ Commands -
 ### `git checkout <remote-name>/<remote-branch-name>`
 
 - Through these commands, we tell Git that we want a branch that can point to the remote branch of the same name.
+
+## Git Fetch
+
+- git fetch is a command that brings the changes to our repository but not our workspace.
+- In other terms, _'The information about any updates is provided to the repo but no changes are done to our files'_.
+- Fetching allows us to download changes from remote repo but those changes are not automatically integrated in the our working directory.
+- Let's us see the changes that others have done but we don't have to merge those changes.
+
+Command -
+
+### `git fetch <remote> / git fetch <remote> <branch>`
+
+- The changes that are done can be viewed by checking out to the remote branches, but our work remains the same on the working directory.
