@@ -121,3 +121,22 @@ Command -
 ### `git fetch <remote> / git fetch <remote> <branch>`
 
 - The changes that are done can be viewed by checking out to the remote branches, but our work remains the same on the working directory.
+
+## Git Pull
+
+- Command used to retrieve changes from repos.
+- Updates our working directory updates.
+
+> `git pull = git fetch + git merge`
+
+Command -
+
+### `git pull <remote> <branch>`
+
+- The branch through which this command is to be run is the branch where those changes will be merged. Hence, **be sure of the branch**.
+- Pulls can lead to conflicts as well which can be solved like conflicts are usually solved.
+- Not recommended if we have uncommited changes.
+
+- If we just run git pull on a branch then, by default it will:
+  1. Take the remote as origin.
+  2. Will pull the branch whose tracking connection is there with my current branch.
