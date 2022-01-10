@@ -149,3 +149,15 @@ Command -
 ## Private Repos
 
 - Only visible to the owners and the ones who have been granted access.
+
+## README Files
+
+- Used to tell important things about the repo.
+- The info includes -
+
+  1. What the project is
+  2. How to run the project
+  3. Why it's noteworthy
+  4. Who maintains the project
+
+- Git automatically displays the README file on the repo
