@@ -161,3 +161,8 @@ Command -
   4. Who maintains the project
 
 - Git automatically displays the README file on the repo
+
+## Github Gists
+
+- Gist is a simple way to share code snippets and useful snippets with other.
+- Easier to create but much less features than a repo
