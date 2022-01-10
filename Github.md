@@ -140,3 +140,12 @@ Command -
 - If we just run git pull on a branch then, by default it will:
   1. Take the remote as origin.
   2. Will pull the branch whose tracking connection is there with my current branch.
+
+## Public Repos
+
+- Accessible to everyone on the internet
+- Anyone can see the repo on Github
+
+## Private Repos
+
+- Only visible to the owners and the ones who have been granted access.
