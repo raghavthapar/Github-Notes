@@ -31,3 +31,21 @@
 3. PRs can have discussions over them and several other team members can also be included.
 4. A PR can be rejected or accepted by the manager
 5. If a PR is aaproved, then the changes can be merged successfully.
+
+## Fork and Clone Workflow
+
+---
+
+- Every dev/team member has their own repo in addition to some 'main' repo
+- Often used in large open source projects
+- The members can then put a pull request and hence that is the way that merging is done
+
+### Forking
+
+1. Another Github feature
+2. Forks are the clones/copies of orignal repos of other people
+3. Forking a repo means asking Git to make us the same repo as the one we want
+4. Not a Git feature. Ability to fork is implemented by Github.
+
+- We usually want to set up 2 remotes here because we want to push changes to our repo but also pull changes from the orignal repo.
+- The name of the remote usually used is _**upstream**_.
