@@ -51,3 +51,17 @@ This command returns the data that is stored in the hash that we have provided i
 - Abbreviation of Binary Large Objects.
 - These are the object types which Git uses to store content of our files
 - These don't even store the name of the file or any other data related to it. It just stores the contents of the file
+
+## Trees
+
+- Trees are Git objects that are used to store the contents of a directory
+- A tree contains pointers that contains blobs and trees
+- It also keeps track of the names of the files/directorties
+
+### `git cat-file -p master^{tree}`
+
+This command gives us the most recent tree
+
+### `git cat-file -t <hash>`
+
+This command tells us the type of the object that hash is storing/referencing
