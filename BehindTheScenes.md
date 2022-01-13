@@ -58,10 +58,20 @@ This command returns the data that is stored in the hash that we have provided i
 - A tree contains pointers that contains blobs and trees
 - It also keeps track of the names of the files/directorties
 
-### `git cat-file -p master^{tree}`
+### `git cat-file -p master^{tree}/hash`
 
-This command gives us the most recent tree
+This command gives us the most recent tree and the info that it stores
 
 ### `git cat-file -t <hash>`
 
 This command tells us the type of the object that hash is storing/referencing
+
+## Commits
+
+- It combines the tree with the information about the context that led to that tree in the first place
+- They store -
+  1. Tree that has the contents of that commit
+  2. A reference to the parent commit
+  3. The author
+  4. The commiter
+  5. The commit message
