@@ -28,3 +28,10 @@ The config file is something that remains from repo to repo. It contains the inf
   2. Tree
   3. Blob
   4. Annotated Tags
+
+## Hashing Functions
+
+- Hashing functions map input data of some arbitrary size to fixed size values
+- Git uses a hash function called `SHA-1`
+- SHA-1 always generates 40-digit hexadecimal values
+- Commit hashes are output of SHA-1
