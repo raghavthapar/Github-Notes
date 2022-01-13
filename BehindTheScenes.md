@@ -45,3 +45,9 @@ This stores the text/file in a Git directory and also returns a hash that is eve
 ### `git cat-file -p <object-hash>`
 
 This command returns the data that is stored in the hash that we have provided it
+
+## Blobs
+
+- Abbreviation of Binary Large Objects.
+- These are the object types which Git uses to store content of our files
+- These don't even store the name of the file or any other data related to it. It just stores the contents of the file
