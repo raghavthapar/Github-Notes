@@ -35,3 +35,13 @@ The config file is something that remains from repo to repo. It contains the inf
 - Git uses a hash function called `SHA-1`
 - SHA-1 always generates 40-digit hexadecimal values
 - Commit hashes are output of SHA-1
+
+\*\* Git is a key value data store. We can store anything in Git and then it provides us a unique key which can be used to retrieve that piece of information from Git.
+
+### `echo '<text>' | git hash-object --stdin -w / git hash-object <filename> -w`
+
+This stores the text/file in a Git directory and also returns a hash that is eventually stored in the objects directory of the .git folder
+
+### `git cat-file -p <object-hash>`
+
+This command returns the data that is stored in the hash that we have provided it
