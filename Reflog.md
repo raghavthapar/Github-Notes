@@ -19,3 +19,12 @@ We see the log that has been stored. HEAD@{n} means that the log is showing all 
 ### `git reflog show HEAD@{n}`
 
 We can pass a qualifier and then see the reflog from that till the end. Eg if we pass 10, then the reflog will show from HEAD@{10} till HEAD@{n}
+
+## Timed References
+
+- Every log entry has a timestamp associated with it.
+- We can use time qualifiers like
+  1. yesterday
+  2. 7.minute.ago
+  3. 1.week.ago
+  4. Fri, 7 Feb 2022 15:00:00-0800
