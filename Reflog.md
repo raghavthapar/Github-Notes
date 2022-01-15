@@ -28,3 +28,11 @@ We can pass a qualifier and then see the reflog from that till the end. Eg if we
   2. 7.minute.ago
   3. 1.week.ago
   4. Fri, 7 Feb 2022 15:00:00-0800
+
+## Getting commits back!
+
+We can get deleted commits back by getting the commit hash or <branchname@n> from the logs. Then, after we have the commit, we can just reset the repo to that using -
+
+### `git reset --hard <commit-hash>/<branch-name@n>`
+
+We can also get the commits if the commits are rebased
