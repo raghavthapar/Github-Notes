@@ -12,6 +12,12 @@
 
 ## ALIASES
 
+### Aliases in Global Config File
+
 - Git aliases are 'short commands' that we can use instead of using the actual commands
 - In the Global config file, we can make any kind of alias using [alias] and then writing words under it that are git commands
 - E.g. [alias] s = status
+
+### Aliases in command line
+
+- This is done using the git config --global alias.aliasName commandToReplace
